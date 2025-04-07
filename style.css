@@ -1,0 +1,117 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: radial-gradient(ellipse at bottom, #0d1b2a 0%, #000000 100%);
+  color: #e0eafc;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border-bottom: 2px solid #1a1a1a;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #a8dadc;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #f1faee;
+  margin-top: 10px;
+}
+
+/* Main Content Sections */
+main {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(173, 216, 230, 0.2);
+  transition: transform 0.2s ease;
+}
+
+section:hover {
+  transform: scale(1.01);
+}
+
+h2 {
+  color: #fca311;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+ul li,
+ol li {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Images */
+img {
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+}
+
+/* Links */
+a {
+  color: #8ecae6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  background: rgba(0, 0, 0, 0.7);
+  color: #ccc;
+  margin-top: 40px;
+  border-top: 1px solid #1a1a1a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  section {
+    padding: 15px;
+  }
+}
